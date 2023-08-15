@@ -23,7 +23,7 @@ function getSumZeroOptimize(array) {
       return [array[left], array[right]];
     } else if (sum > 0) {
       right--;
-    } else {
+    } else {  
       left++;
     }
   }
